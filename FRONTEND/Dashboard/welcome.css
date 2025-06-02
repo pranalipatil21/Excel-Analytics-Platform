@@ -1,0 +1,51 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://img.freepik.com/free-photo/modern-office-space-with-futuristic-decor-furniture_23-2151797617.jpg?semt=ais_hybrid&w=740') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px 60px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: 0 0 30px black;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 35px;
+  color: white;
+  text-shadow: 0 0 30px black;
+}
+
+.enter-button {
+  font-size: 30px;
+  padding: 15px 50px;
+  border: 2px solid white;
+  border-radius: 30px;
+  background-color: #00489a;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(74, 144, 226, 0.7);
+  transition: background-color 0.3s ease;
+}
+
+.enter-button:hover {
+  background-color: #357ABD;
+}
+
