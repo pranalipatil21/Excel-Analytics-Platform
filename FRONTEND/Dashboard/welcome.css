@@ -10,27 +10,29 @@ body, html {
   text-align: center;
 }
 
-.container {
+.welcome {
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
   padding: 40px 60px;
   border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
-  max-width: 500px;
+  box-shadow: 0 8px 20px rgba(145, 12, 0, 0.6);
+  max-width: 1000px;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 40px;
   margin-bottom: 20px;
   color: white;
-  text-shadow: 0 0 30px black;
+  text-shadow: 0 0 30px rgba(181, 0, 0, 0.892);
+  font-family: 'Cinzel Decorative'
 }
 
 p {
   font-size: 20px;
   margin-bottom: 35px;
   color: white;
-  text-shadow: 0 0 30px black;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-shadow: 0 0 30px rgb(0, 0, 0);
 }
 
 .enter-button {
@@ -41,6 +43,7 @@ p {
   background-color: #00489a;
   color: white;
   cursor: pointer;
+  font-family: "Audiowide";
   box-shadow: 0 4px 15px rgba(74, 144, 226, 0.7);
   transition: background-color 0.3s ease;
 }
